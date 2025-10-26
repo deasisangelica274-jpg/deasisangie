@@ -1,0 +1,107 @@
+* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Background for the About Page */
+.about-page {
+  background-color: #0d0d0d; /* Deep black */
+  color: white;
+  padding-bottom: 50px;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #800000; /* Maroon */
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f5f5f5;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: #ffcccc;
+}
+
+/* About Section */
+.about-container {
+  max-width: 1000px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-container h1 {
+  font-size: 2rem;
+  color: #ffcccc;
+  margin-bottom: 20px;
+}
+
+.intro {
+  font-size: 1rem;
+  color: #e0e0e0;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.about-sections {
+  display: grid;
+  gap: 25px;
+}
+
+.about-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #800000;
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.about-box:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.about-box h2 {
+  color: #ffb6c1;
+  margin-bottom: 10px;
+}
+
+.about-box p {
+  color: #ddd;
+  line-height: 1.5;
+}
+
+.quote {
+  font-style: italic;
+  margin-top: 40px;
+  color: #ffcccc;
+  font-size: 1.1rem;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
